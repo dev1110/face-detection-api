@@ -14,20 +14,20 @@ app.use(cors())
 const db = knex({
     client: 'mysql',
     // debug: true,
-    // connection: { 
-    //   host : '127.0.0.1',
-    //   user : 'u926378551_clpl_web001',
-    //   password : 'Cyber@764',
-    //   database : 'u926378551_clpl_emp',
-    //   encoding: 'utf8'
-    // }
     connection: { 
       host : '127.0.0.1',
-      user : 'root',
-      password : '',
-      database : 'test',
+      user : 'u926378551_clpl_web001',
+      password : 'Cyber@764',
+      database : 'u926378551_clpl_emp',
       encoding: 'utf8'
     }
+    // connection: { 
+    //   host : '127.0.0.1',
+    //   user : 'root',
+    //   password : '',
+    //   database : 'test',
+    //   encoding: 'utf8'
+    // }
   });
 
 
