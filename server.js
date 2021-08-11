@@ -15,7 +15,7 @@ const db = knex({
     client: 'mysql',
     // debug: true,
     connection: { 
-      host : '127.0.0.1',
+      host : 'localhost',
       user : 'u926378551_clpl_web001',
       password : 'Cyber@764',
       database : 'u926378551_clpl_emp',
